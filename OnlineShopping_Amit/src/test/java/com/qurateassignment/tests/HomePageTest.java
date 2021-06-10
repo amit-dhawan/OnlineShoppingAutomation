@@ -15,7 +15,7 @@ public class HomePageTest extends Base {
 	public void testElementsOnHomePage() {
 		hp = new HomePage(driver);
 		Assert.assertTrue(hp.isUserNotLoggedIn(), "User is logged in !!");
-		System.out.println("Is use NOT logged in: " + hp.isUserNotLoggedIn());
+		System.out.println("Is User NOT logged in: " + hp.isUserNotLoggedIn());
 		Assert.assertTrue(hp.isHeaderPresent(), "Header Img is not present !!");
 		System.out.println("Search bar placeholder text is: " + hp.getSearchBarPlaceHolderText());
 		Assert.assertEquals(hp.getSearchBarPlaceHolderText(), "Search",
@@ -28,7 +28,7 @@ public class HomePageTest extends Base {
 				"Mouse hover text is NOT Contact Us");
 		System.out.println("Contact Us tooltip text is: " + hp.getContactUsToolTipTxt());
 		Assert.assertTrue(hp.isMenuBarDressesTabPresent(), "dresses tab is not present");
-		System.out.println("Is Dresses tab in menu bar present:" + hp.isMenuBarDressesTabPresent());
+		System.out.println("Is Dresses tab in menu bar present: " + hp.isMenuBarDressesTabPresent());
 
 	}
 }

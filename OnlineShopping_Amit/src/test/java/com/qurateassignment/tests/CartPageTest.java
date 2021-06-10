@@ -1,7 +1,5 @@
 package com.qurateassignment.tests;
 
-import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -20,7 +18,7 @@ public class CartPageTest extends Base {
 		cp.clickOnCartBtn();
 		Assert.assertEquals(cp.getTotalCartQuantity(), Integer.parseInt(Utilities.getProperty("quantity")),
 				"Cart quantitiy is not correct");
-		System.out.println("Total quantitiy in cart is:" + cp.getTotalCartQuantity());
+		System.out.println("Total quantitiy in cart is: " + cp.getTotalCartQuantity());
 
 	}
 

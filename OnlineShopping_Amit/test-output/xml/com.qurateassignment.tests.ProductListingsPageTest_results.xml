@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.293">
+           time="8.058">
   <properties />
   
   
-            <testcase name="testElementsOnHomePage" time="0.293" classname="com.qurateassignment.tests.HomePageTest" />
+            <testcase name="testProductListingsPage" time="8.058" classname="com.qurateassignment.tests.ProductListingsPageTest" />
       
 </testsuite>
